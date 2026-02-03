@@ -10,7 +10,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
     "@radix-ui/react-accordion": "^1.2.12",
@@ -59,7 +58,6 @@
     "tailwind-merge": "^3.4.0",
     "vaul": "^1.1.2",
     "zod": "^4.3.5"
-    
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
