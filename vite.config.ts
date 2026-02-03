@@ -3,14 +3,14 @@ import react from '@vitejs/plugin-react'
 import { resolve } from 'path'
 
 export default defineConfig({
-  base: '/Finance/', // já estava certo
+  base: '/',                // domínio próprio: finance.matrixwifi.com.br/
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src'),
     },
   },
   build: {
-    outDir: 'docs',  // <-- novo: build vai gerar dentro de docs/
+    outDir: 'docs',         // build vai para docs/
   },
   plugins: [react()],
 })
